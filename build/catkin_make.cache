@@ -1,0 +1,2 @@
+skbot/skbot:skbot/skbot_control:skbot/skbot_description:skbot/skbot_gazebo:skbot/skbot_motion:skbot/skbot_navigation
+-DCATKIN_DEVEL_PREFIX=/home/tom/Dev/skbot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tom/Dev/skbot_ws/install -G Unix Makefiles

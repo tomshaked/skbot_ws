@@ -1,0 +1,19 @@
+MOBILE ROBOT SIMULATION
+
+cd Dev/skbot_ws/
+source devel/setup.bash
+
+roslaunch skbot_gazebo skbot_world.launch
+roslaunch skbot_navigation amcl_demo.launch map_file:=/home/tom/Dev/skbot_ws/src/skbot/skbot_navigation/maps/test_map.yaml
+roslaunch skbot_description skbot_rviz_amcl.launch
+
+Add the following components into rviz display:
+●Map
+●RobotModel
+●LaserScan -> /skbot/laser/scan
+●Global Path
+●Local Path
+●Global Costmap
+●Local Costmap
+●Cost Point cloud
+
